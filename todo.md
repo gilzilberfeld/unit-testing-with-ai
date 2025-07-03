@@ -4,8 +4,8 @@ You need to know the code
 TDD -> Increase cycle feedback
 Copilot, inside the IDE.
 
-Test case generation
-Empty tests, only names
+-- Test case generation
+-- Empty tests, only names
 Full tests
 Component tests
 generate based on props and component behavior
