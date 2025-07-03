@@ -6,7 +6,7 @@ Copilot, inside the IDE.
 
 -- Test case generation
 -- Empty tests, only names
-Full tests
+-- Full tests
 Component tests
 generate based on props and component behavior
 Generating accessibility and responsive design test cases
