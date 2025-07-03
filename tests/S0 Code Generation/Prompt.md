@@ -17,7 +17,7 @@ Component should also have the title "Towers of Hanoi". Next it shows "Current t
 
 # Part 2
 
-Modify the code to have between 3-5 towers and between 3-6 rings on each tower. Pass them as props.
+Modify the code to have between 3-5 towers and between 3-6 disks on each tower. Pass them as props.
 
 # Part 3
 
