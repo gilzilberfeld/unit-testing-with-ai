@@ -16,9 +16,8 @@ Copilot, inside the IDE.
 -- Multithreaded / Concurrency issues
 -- Mock a method
 -- Mock call with mock service worker
-Refactoring
-Refactor method and run.
-Refactor to patterns and run
+-- Refactor method and run.
+-- Refactor to patterns and run
 Refactor tests.
 Test naming conventions
 Refactor to internal component and run
