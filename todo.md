@@ -18,10 +18,8 @@ Copilot, inside the IDE.
 -- Mock call with mock service worker
 -- Refactor method and run.
 -- Refactor to patterns and run
-Refactor tests.
-Test naming conventions
-Refactor to internal component and run
-Cont. Refactor tests
+-- Refactor tests.
+-- Test naming conventions
 Optimization
 Code review and optimization suggestions
 
