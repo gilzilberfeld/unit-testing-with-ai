@@ -14,8 +14,7 @@ Copilot, inside the IDE.
 -- Code Analysis
 -- Edge case discovery and boundary condition testing
 -- Multithreaded / Concurrency issues
-Mocking
-Mock a method
+-- Mock a method
 Mock call with mock service worker
 Refactoring
 Refactor method and run.
