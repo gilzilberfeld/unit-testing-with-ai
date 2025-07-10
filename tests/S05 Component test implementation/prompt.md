@@ -1,4 +1,4 @@
-### Prompt
+# Prompt
 
 Implement in a separate file the 2 tests following test cases:
 
