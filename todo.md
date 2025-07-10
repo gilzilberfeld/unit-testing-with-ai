@@ -15,7 +15,7 @@ Copilot, inside the IDE.
 -- Edge case discovery and boundary condition testing
 -- Multithreaded / Concurrency issues
 -- Mock a method
-Mock call with mock service worker
+-- Mock call with mock service worker
 Refactoring
 Refactor method and run.
 Refactor to patterns and run
