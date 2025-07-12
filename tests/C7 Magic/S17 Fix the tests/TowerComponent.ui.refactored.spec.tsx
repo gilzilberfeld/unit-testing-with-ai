@@ -1,8 +1,8 @@
 import { render, screen, act } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, it, expect, vi } from "vitest";
-import TowersOfHanoi from "../../app/components/TowerComponent";
 import React from "react";
+import TowersOfHanoi from "@/app/components/TowerComponent";
 
 function setup(props = { numTowers: 3, numDisks: 3 }) {
   render(<TowersOfHanoi {...props} />);

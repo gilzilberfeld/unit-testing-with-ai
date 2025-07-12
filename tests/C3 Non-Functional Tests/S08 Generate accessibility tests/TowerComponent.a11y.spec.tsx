@@ -1,8 +1,8 @@
 import { render, screen } from "@testing-library/react";
 import { describe, it, expect } from "vitest";
-import TowersOfHanoi from "../../app/components/TowerComponent";
 import React from "react";
 import { axe, toHaveNoViolations } from "jest-axe";
+import TowersOfHanoi from "@/app/components/TowerComponent";
 expect.extend(toHaveNoViolations);
 
 describe("TowersOfHanoi Accessibility", () => {

@@ -1,5 +1,5 @@
+import { TowersOfHanoiLogic } from '@/app/logic/TowersOfHanoiLogic';
 import { describe, it, expect } from 'vitest';
-import { TowersOfHanoiLogic } from '../../app/logic/TowersOfHanoiLogic';
 
 describe('TowersOfHanoiLogic - getCurrentState', () => {
   it('should return correct initial state', () => {

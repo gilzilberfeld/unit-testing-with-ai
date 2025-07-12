@@ -1,7 +1,7 @@
 import { render, screen, waitFor } from "@testing-library/react";
 import { describe, it, expect, vi, beforeEach } from "vitest";
-import TowersOfHanoi from "../../app/components/TowerComponent";
 import React from "react";
+import TowersOfHanoi from "@/app/components/TowerComponent";
 
 describe("TowersOfHanoi Weather API", () => {
   beforeEach(() => {
