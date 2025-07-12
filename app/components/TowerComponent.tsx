@@ -215,7 +215,6 @@ const TowersOfHanoi = ({ numTowers = 3, numDisks = 5 }: TowersOfHanoiProps) => {
         {gameLogic.current.isComplete() && <div className="text-green-600 font-semibold text-lg">🎉 Puzzle Completed! 🎉</div>}
 
         <div className="mt-4 text-sm text-gray-500 max-w-2xl mx-auto">
-          <p>The Towers of Hanoi puzzle: Move all disks from the first tower to the last tower. Only one disk can be moved at a time, and a larger disk cannot be placed on top of a smaller disk.</p>
           <p className="mt-2">
             Configuration: {clampedTowers} towers, {clampedDisks} disks | Minimum moves: {gameLogic.current.getTotalMoves()}
           </p>
