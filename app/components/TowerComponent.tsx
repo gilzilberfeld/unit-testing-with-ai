@@ -182,30 +182,29 @@ const TowersOfHanoi = ({ numTowers = 3, numDisks = 5 }: TowersOfHanoiProps) => {
         </div>
       </div>
 
-      <div className={`flex justify-center items-end bg-green-100 p-8 rounded-xl mb-8 ${clampedTowers === 3 ? "space-x-8" : clampedTowers === 4 ? "space-x-6" : "space-x-4"}`}>
-        {gameState.towers.map((tower, index) => renderTower(index, tower))}
-      </div>
+      <div className="flex flex-row justify-center items-center bg-green-100 p-8 rounded-xl mb-8">
+        <div className={`flex ${clampedTowers === 3 ? "space-x-8" : clampedTowers === 4 ? "space-x-6" : "space-x-4"}`}>{gameState.towers.map((tower, index) => renderTower(index, tower))}</div>
+        <div className="flex flex-col space-y-4 ml-8">
+          <button
+            onClick={handleStart}
+            disabled={isRunning || gameLogic.current.isComplete()}
+            className="px-6 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors duration-200"
+          >
+            Start
+          </button>
 
-      <div className="flex justify-center space-x-4 mb-6">
-        <button
-          onClick={handleStart}
-          disabled={isRunning || gameLogic.current.isComplete()}
-          className="px-6 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors duration-200"
-        >
-          Start
-        </button>
+          <button
+            onClick={handleStop}
+            disabled={!isRunning}
+            className="px-6 py-3 bg-red-600 text-white rounded-lg font-semibold hover:bg-red-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors duration-200"
+          >
+            Stop
+          </button>
 
-        <button
-          onClick={handleStop}
-          disabled={!isRunning}
-          className="px-6 py-3 bg-red-600 text-white rounded-lg font-semibold hover:bg-red-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors duration-200"
-        >
-          Stop
-        </button>
-
-        <button onClick={handleReset} className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200">
-          Reset
-        </button>
+          <button onClick={handleReset} className="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200">
+            Reset
+          </button>
+        </div>
       </div>
 
       <div className="text-center text-gray-600">
