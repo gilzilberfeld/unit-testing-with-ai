@@ -22,8 +22,8 @@ export default function App() {
         style={{ maxWidth: "1920px", margin: "0 auto", padding: "4px 0" }}
       >
         <div style={{ minWidth: 340, maxWidth: 500, flex: "0 0 500px" }} className="flex flex-col h-full md:min-h-screen">
-          <p className="mt-4 text-sm text-gray-500 max-w-2xl mx-auto">
-            The Towers of Hanoi puzzle: Move all disks from the first tower to the last tower. Only one disk can be moved at a time, and a larger disk cannot be placed on top of a smaller disk.
+          <p className="mt-4 mb-6 text-sm text-gray-700 max-w-2xl mx-auto bg-white bg-opacity-80 rounded-lg shadow p-4 border border-blue-100">
+            Move all disks from the first tower to the last tower. Only one disk can be moved at a time, and a larger disk cannot be placed on top of a smaller disk.
           </p>
           <div className="flex-1 flex flex-col justify-center">
             <ConfigurationPanel onConfigChange={handleConfigChange} currentTowers={towers} currentDisks={disks} />
