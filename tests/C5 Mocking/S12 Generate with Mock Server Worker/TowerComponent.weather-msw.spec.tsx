@@ -3,7 +3,7 @@ import { http, HttpResponse } from "msw";
 import { setupServer } from "msw/node";
 import { beforeAll, afterAll, afterEach, describe, it, expect } from "vitest";
 import React from "react";
-import TowersOfHanoi from "@/app/components/TowerComponent";
+import TowersOfHanoi from "../../../app/components/TowerComponent";
 
 describe("TowersOfHanoi Weather API (MSW)", () => {
   const server = setupServer(

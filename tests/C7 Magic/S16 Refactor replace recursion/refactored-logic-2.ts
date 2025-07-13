@@ -1,5 +1,5 @@
-import { GameState } from '../../app/logic/GameState';
-import { Move } from '../../app/logic/Move';
+import { GameState } from "../../../app/components/logic/GameState";
+import { Move } from "../../../app/components/logic/Move";
 
 /**
  * Iterative (non-recursive) Towers of Hanoi logic for 3-5 towers and 3-6 disks.

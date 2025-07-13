@@ -2,7 +2,7 @@
 
 Implement in a separate file the 2 tests following test cases:
 
-1. For the TowerComponent create a list of test cases. Don't generate code.
+1. Should render the correct number of towers and disks based on props.
 2. Should update the UI after each move (disks move between towers)
 
 -> Jest test, .ts

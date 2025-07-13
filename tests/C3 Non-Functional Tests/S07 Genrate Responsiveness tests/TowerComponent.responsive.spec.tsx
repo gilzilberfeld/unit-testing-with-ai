@@ -1,7 +1,7 @@
 import { describe, it, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
 import React from "react";
-import TowersOfHanoi from "@/app/components/TowerComponent";
+import TowersOfHanoi from "../../../app/components/TowerComponent";
 
 describe("TowersOfHanoi Responsiveness", () => {
   it("should render correctly on a large screen (desktop)", () => {

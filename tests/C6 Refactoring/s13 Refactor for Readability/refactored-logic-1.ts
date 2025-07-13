@@ -1,5 +1,5 @@
-import { GameState } from "@/app/logic/GameState";
-import { Move } from "@/app/logic/Move";
+import { GameState } from "@/app/components/logic/GameState";
+import { Move } from "@/app/components/logic/Move";
 
 /**
  * Refactored TowersOfHanoiLogic for improved readability and maintainability.

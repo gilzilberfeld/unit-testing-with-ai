@@ -1,4 +1,4 @@
-import { TowersOfHanoiLogic } from '@/app/logic/TowersOfHanoiLogic';
+import { TowersOfHanoiLogic } from '../../..//app/components/logic/TowersOfHanoiLogic';
 import { describe, it, expect } from 'vitest';
 
 describe('TowersOfHanoiLogic - getCurrentState', () => {

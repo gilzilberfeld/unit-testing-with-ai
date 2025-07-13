@@ -2,7 +2,7 @@ import { render, screen, act } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { describe, it, expect, vi } from "vitest";
 import React from "react";
-import TowersOfHanoi from "@/app/components/TowerComponent";
+import TowersOfHanoi from "../../../app/components/TowerComponent";
 
 describe("TowersOfHanoi Component", () => {
   it("should render the correct number of towers and disks based on props", () => {
