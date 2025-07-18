@@ -1,11 +1,21 @@
 "use client";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ConfigurationPanel } from "./components/ConfigurationPanel";
 import TowersOfHanoi from "./components/TowerComponent";
 
 export default function App() {
   const [towers, setTowers] = useState(3);
   const [disks, setDisks] = useState(5);
+
+  useEffect(() => {
+    // Hide Next.js error overlay
+    const style = document.createElement("style");
+    style.innerHTML = `
+        [data-nextjs-dialog-overlay] { display: none !important; }
+        [data-nextjs-toast] { display: none !important; }
+      `;
+    document.head.appendChild(style);
+  }, []);
 
   const handleConfigChange = (newTowers: number, newDisks: number) => {
     setTowers(newTowers);

@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
-import { WeatherData } from "../logic/WeatherData";
-import { TowersOfHanoiLogic } from "../logic/TowersOfHanoiLogic";
-import { GameState } from "../logic/GameState";
+import { GameState } from "./Logic/GameState";
+import { WeatherData } from "./Logic/WeatherData";
+import { TowersOfHanoiLogic } from "./Logic/TowersOfHanoiLogic";
 
 export interface TowersOfHanoiProps {
   numTowers?: number; // 3-5 towers (optional, defaults to 3)
